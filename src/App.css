@@ -16,6 +16,39 @@ body {
   max-width: 1250px;
   margin: 0 auto;
 }
+nav{
+height: 70px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #cbebf83b;
+}
+ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a{
+  height: 40px;
+  width: 90px;
+  color: #15a0fd;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  height: 40px ;
+  background-color: rgb(164, 216, 247);
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #0b74bb;
+}
+
 .listimg{
  display: flex;
  justify-content: center;
